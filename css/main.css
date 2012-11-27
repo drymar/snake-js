@@ -1,0 +1,59 @@
+.game-field {
+    float: left;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.game-block {
+    background: #DED url('../img/grass.jpg');
+    border: 1px solid #363;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.game-block.snake-here {
+    background: url('../img/snake2.png');
+}
+
+.game-block.snake-here.snake-head.down {
+    background:  url('../img/snake_head_down.png') transparent;
+}
+
+.game-block.snake-here.snake-head.up {
+    background:  url('../img/snake_head_up.png') transparent;
+}
+
+.game-block.snake-here.snake-head.left {
+    background:  url('../img/snake_head_left.png') transparent;
+}
+
+.game-block.snake-here.snake-head.right {
+    background:  url('../img/snake_head_right.png') transparent;
+}
+
+.game-block.food-here {
+    background: url('../img/food2.png') transparent;
+}
+
+.game-pause {
+    margin-left: 10px;
+}
+
+.game-alert {
+    display: none;
+}
+
+.controls {
+    float: left;
+    margin-left: 30px;
+
+}
+
+#footer {
+    clear: both;
+    padding-top: 30px;
+}
